@@ -1,20 +1,16 @@
 cd
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
- read -p "DO YOU WANT TO START THE INSTALLATION NOW? (Yy/Nn): " yn
-    case $yn in
-        [Yy]* )
-            echo ":: Installation started."
-            echo
-        break;;
-        [Nn]* ) 
-            echo ":: Installation canceled."
-            exit;
-        break;;
-        * ) echo ":: Please answer yes or no.";;
-    esac
-done
+# prompting for choice
+read -p "Do you want to install the wrappers? (y)Yes/(n)No/(c)Cancel:- " choice
 
+# giving choices there tasks using
+case $choice in
+[yY]* ) echo "Making dummy install" ;;
+[nN]* ) echo "Thanks for using the script" ;;
+[cC]* ) echo "Installation cancelled" ;;
+*) exit ;;
+esac
 git clone https://github.com/starsprinter92/yay-wrappers/
 cd yay-wrappers
 chmod +x ./pkginstall.sh
