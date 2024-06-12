@@ -2,10 +2,10 @@ cd
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
 while true; do
-    read -p "Do you wish to install this program? " yn
+    read -p "Do you wish to install the wrappers? (y/n) - " yn
     case $yn in
         [Yy]* ) make install; break;;
-        [Nn]* ) exit;;
+        [Nn]* ) echo Canceled. && exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
