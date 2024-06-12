@@ -10,6 +10,8 @@ case $choice in
 [nN]* ) echo "Installation cancelled" ;;
 *) exit ;;
 esac
+
+
 git clone https://github.com/starsprinter92/yay-wrappers/
 cd yay-wrappers
 chmod +x ./pkginstall.sh
