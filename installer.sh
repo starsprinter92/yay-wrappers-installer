@@ -1,4 +1,6 @@
 
+cd
+
 yay -S --noconfirm figlet lolcat
 
 figlet PKGINSTALL INSTALLER | lolcat
@@ -23,6 +25,6 @@ chmod +x ./install.sh
 
 sudo cp ./install.sh /usr/bin/installer
 
-cd ..
+cd 
 
-rm -rf ./yay-wrappers
+rm -rf ∼/yay-wrappers
