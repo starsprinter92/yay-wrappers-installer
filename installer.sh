@@ -19,6 +19,10 @@ chmod +x ./pkgsearch.sh
 
 sudo cp ./pkgsearch.sh /usr/bin/pkgsearch
 
+chmod +x ./install.sh
+
+sudo cp ./install.sh /usr/bin/installer
+
 cd ..
 
-rmdir --ignore-fail-on-non-empty ./yay-wrappers
+rm -rf ./yay-wrappers
