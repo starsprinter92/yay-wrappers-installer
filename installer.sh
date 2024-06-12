@@ -7,7 +7,7 @@ read -p "Do you want to install the wrappers? (y)Yes/(n)No" choice
 # giving choices there tasks using
 case $choice in
 [yY]* ) echo "Making dummy install" ;;
-[nN]* ) echo "Installation cancelled" ;;
+[nN]* ) echo "Installation cancelled" && exit ;;
 exit*)  ;;
 esac
 
