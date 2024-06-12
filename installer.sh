@@ -3,7 +3,7 @@ rm -rf ./yay-wrappers
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
 while true; do
-    read -p "Do you wish to install the wrappers? (y/n) - " yn
+    read -p "Do you wish to install/update the wrappers? (y/n) - " yn
     case $yn in
         [Yy]* ) break;;
         [Nn]* ) echo Canceled. && exit;;
