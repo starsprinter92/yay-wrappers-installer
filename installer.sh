@@ -1,8 +1,6 @@
 cd
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
-# prompting for choice
-read -p "Do you want to install the wrappers? (y)Yes/(n)No" choice
 cd yay-wrappers
 chmod +x ./pkginstall.sh
 sudo cp ./pkginstall.sh /usr/bin/pkginstall
