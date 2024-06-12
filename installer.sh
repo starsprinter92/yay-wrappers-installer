@@ -5,7 +5,7 @@ figlet PKGINSTALL INSTALLER | lolcat
 while true; do
     read -p "Do you wish to install the wrappers? (y/n) - " yn
     case $yn in
-        [Yy]* ) make install; break;;
+        [Yy]* ) break;;
         [Nn]* ) echo Canceled. && exit;;
         * ) echo "Please answer yes or no.";;
     esac
