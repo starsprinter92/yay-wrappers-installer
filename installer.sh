@@ -1,6 +1,7 @@
 cd
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
+git clone https://github.com/starsprinter92/yay-wrappers/
 cd yay-wrappers
 chmod +x ./pkginstall.sh
 sudo cp ./pkginstall.sh /usr/bin/pkginstall
