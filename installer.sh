@@ -1,7 +1,7 @@
 
-yay -S figlet lolcat
+yay -S --noconfirm figlet lolcat
 
-figlet PKGINSTALL INSTALLER
+figlet PKGINSTALL INSTALLER | lolcat
 
 git clone https://github.com/starsprinter92/yay-wrappers/
 
