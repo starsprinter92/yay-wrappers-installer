@@ -1,3 +1,8 @@
+
+yay -S figlet lolcat
+
+figlet PKGINSTALL INSTALLER
+
 git clone https://github.com/starsprinter92/yay-wrappers/
 
 cd yay-wrappers
@@ -13,3 +18,7 @@ sudo cp ./update.sh /usr/bin/update
 chmod +x ./pkgsearch.sh
 
 sudo cp ./pkgsearch.sh /usr/bin/pkgsearch
+
+cd ..
+
+rmdir --ignore-fail-on-non-empty ./yay-wrappers
