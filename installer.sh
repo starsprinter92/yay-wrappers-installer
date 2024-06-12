@@ -1,4 +1,6 @@
+
 cd
+rm -rf ./yay-wrappers
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
 while true; do
