@@ -1,4 +1,3 @@
-
 cd
 rm -rf ./yay-wrappers
 yay -S --noconfirm figlet lolcat
