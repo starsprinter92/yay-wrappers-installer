@@ -1,7 +1,6 @@
 cd
 yay -S --noconfirm figlet lolcat
 figlet PKGINSTALL INSTALLER | lolcat
-
 while true; do
     read -p "Do you wish to install this program? " yn
     case $yn in
@@ -10,8 +9,6 @@ while true; do
         * ) echo "Please answer yes or no.";;
     esac
 done
-
-
 git clone https://github.com/starsprinter92/yay-wrappers/
 cd yay-wrappers
 chmod +x ./pkginstall.sh
