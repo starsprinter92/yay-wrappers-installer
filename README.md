@@ -1,6 +1,7 @@
 # yay-wrappers-installer
 
-![yogurt-cup-512(2)](https://github.com/starsprinter92/yay-wrappers-installer/assets/97267759/61662ef0-9f3c-492d-903e-5e77e26d108c)
+![yogurt-cup-512(3)](https://github.com/starsprinter92/yay-wrappers-installer/assets/97267759/280e8f34-6131-43b4-b5a9-81c954a0d134)
+
 
 This does not host the actual wrappers, if you have an issue please go to https://github.com/starsprinter92/yay-wrappers
 Copy this into your terminal to install :
